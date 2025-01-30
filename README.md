@@ -24,8 +24,8 @@ These Python scripts help astronomers plot data for double star systems, includi
 
 Many double star projects gather data from multiple sources:
 
-- **Historical observations**: Typically spanning decades or centuries, measured in either polar coordinates \((\text{PA}, \text{Sep})\) or \((X, Y)\).  
-- **Gaia DR3**: High-precision astrometric data (often \(\text{PA}, \text{Sep}\), or you might convert to \((X, Y)\)).  
+- **Historical observations**: Typically spanning **decades or centuries**, measured in either polar coordinates  ![ (\text{PA}, \text{Sep}) ](https://latex.codecogs.com/svg.latex?(\text{PA},%20\text{Sep}))  or Cartesian coordinates  ![ (X, Y) ](https://latex.codecogs.com/svg.latex?(X,%20Y)). 
+- **Gaia DR3**: High-precision astrometric data, often in  ![ (\text{PA}, \text{Sep}) ](https://latex.codecogs.com/svg.latex?(\text{PA},%20\text{Sep}))  or converted to  ![ (X, Y) ](https://latex.codecogs.com/svg.latex?(X,%20Y)).  
 - **LCO measurements**: Modern measurements you make with a telescope network like Las Cumbres Observatory.  
 - **Predictions / Theoretical points**: Single coordinates from orbit fits (e.g., Izmailov 2019).
 
